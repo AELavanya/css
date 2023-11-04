@@ -1,0 +1,58 @@
+#cat
+{
+  font-size:x-large;
+}
+#siri{
+  font-size: xx-large;
+  padding-top:5px;
+  padding-left: 5px;
+  background-color:rgb(14, 14, 53);
+  height:500px;
+  width:500px;
+  color: white;
+  border-radius:10px;
+}
+#lav{
+  background-color: Black; 
+  font-size:xx-large;
+  color:white; 
+  height: 200px; 
+  width: 200px;
+  border-radius:10px;
+}
+ul{
+  list-style:none;
+  background:black;
+}
+ul li{
+  display:inline-block;
+  position: relative;
+}
+ul li a{ 
+  display: block;
+  padding:20px 25px;
+  color: white;
+  text-align:left;
+  font-size: x-large;
+}
+ul li ul.dropdown li{
+  display: block;
+}
+ul li ul.dropdown{
+  width: 300px;
+  background:#0c0e12;
+  position:absolute;
+  z-index:999;
+  display: none;
+}
+ul li a:hover{
+  background: #0c0e12;
+}
+ul li:hover ul.dropdown{
+  display: block;
+}
+#sonu{
+    margin-top:10px;
+    padding-left:500px; 
+    margin-bottom:10px;
+}
